@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    (function () {
+      var path = window.location.pathname || '';
+      var dir = path.lastIndexOf('/') !== -1 ? path.substring(0, path.lastIndexOf('/') + 1) : './';
+      document.write('<base href="' + dir + '">');
+      document.write('<link rel="stylesheet" href="' + dir + 'css/style.css" id="site-main-css">');
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Винаходи українців у IT: МЕСМ, адресна мова програмування, Дія, розпізнавання облич, Grammarly — історія та вплив на технології.">
+  <meta name="keywords" content="МЕСМ, адресна мова, Дія, Grammarly, розпізнавання облич, українські винаходи">
+  <meta name="author" content="Котюк Владислав">
+  <meta property="og:title" content="Винаходи — Винаходи українців у IT">
+  <meta property="og:description" content="Детальний огляд ключових IT-винаходів, створених українцями.">
+  <meta property="og:type" content="website">
+  <title>Винаходи — Винаходи українців у IT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇺🇦</text></svg>">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти до контенту</a>
+
+  <header class="site-header" role="banner">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo" aria-label="На головну">
+        <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+        <span>IT України</span>
+      </a>
+      <nav class="nav-menu" aria-label="Головна навігація">
+        <a href="index.html">Головна</a>
+        <a href="inventions.html">Винаходи</a>
+        <a href="scientists.html">Науковці</a>
+        <a href="companies.html">Компанії</a>
+      </nav>
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" aria-label="Увімкнути темну тему">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          <i class="fa-solid fa-sun" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="nav-toggle" aria-label="Відкрити меню" aria-expanded="false">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <span class="section-label">Каталог</span>
+        <h1>Винаходи українців у IT</h1>
+        <p>Від перших комп'ютерів до штучного інтелекту — технології, що змінили світ</p>
+      </div>
+    </header>
+
+    <section class="section" aria-label="Список винаходів">
+      <div class="container inventions-list">
+
+        <article class="invention-block reveal" id="mesm">
+          <div class="invention-image">
+            <img
+              src="https://imglife.pravda.com.ua/images/doc/b/2/b2b96ff-0new-kyiv-34x14.jpg"
+              alt="Мала електронно-рахувальна машина (МЕСМ) — перший комп'ютер в Європі"
+              width="700"
+              height="525"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            >
+          </div>
+          <div class="invention-content">
+            <h2>МЕСМ</h2>
+            <p class="invention-date">
+              <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+              1950 рік — Київ, Україна
+            </p>
+            <p>
+              <strong>Мала електронно-рахувальна машина (МЕСМ)</strong> — перша в Європі та одна з перших у світі
+              повністю електронних цифрових обчислювальних машин. Її створив академік Сергій Лєбєдєв
+              у Києві на базі Інституту електротехніки АН УРСР. Машина виконувала до 50 операцій
+              на секунду та мала пам'ять на 31 число.
+            </p>
+            <div class="invention-impact">
+              <h4>Вплив на розвиток IT</h4>
+              <p>
+                МЕСМ заклала фундамент обчислювальної техніки в СРСР і Європі, довела можливість
+                практичного застосування електронних комп'ютерів для наукових розрахунків і стала
+                прототипом для наступних поколінь ЕОМ, розроблених у Києві.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="invention-block reveal" id="address-language">
+          <div class="invention-image">
+            <img
+              src="https://se.khai.edu/wp-content/uploads/2021/03/Yushchenko2019_1.jpg"
+              alt="Катерина Ющенко — авторка адресної мови програмування"
+              width="700"
+              height="525"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            >
+          </div>
+          <div class="invention-content">
+            <h2>Адресна мова програмування</h2>
+            <p class="invention-date">
+              <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+              1955 рік — Київ, Україна
+            </p>
+            <p>
+              Катерина Ющенко розробила одну з перших у світі <strong>мов програмування високого рівня</strong>
+              з концепцією адресування — «Адресна мова програмування». Вона дозволяла програмістам
+              працювати з довільними структурами даних, використовуючи вказівники та косвенну адресацію,
+              що було революційним для того часу.
+            </p>
+            <div class="invention-impact">
+              <h4>Вплив на розвиток IT</h4>
+              <p>
+                Ідеї адресної мови передували сучасним мовам із вказівниками (C, Pascal) та заклали
+                основи структурного програмування. Це один із найважливіших внесків України
+                у теорію та практику програмування.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="invention-block reveal" id="diia">
+          <div class="invention-image invention-image--contain">
+            <img
+              src="https://naglyad.org/wp-content/uploads/2020/02/diia_ua.png"
+              alt="Дія — цифрова держава України"
+              width="700"
+              height="525"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            >
+          </div>
+          <div class="invention-content">
+            <h2>Дія</h2>
+            <p class="invention-date">
+              <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+              2020 рік — Україна
+            </p>
+            <p>
+              <strong>Дія</strong> — мобільний застосунок і веб-портал державних послуг, що об'єднує
+              документи, сервіси та послуги в одному цифровому просторі. Під час повномасштабної війни
+              платформа стала критично важливою для ветеранів, ВПО, донорів та комунікації держави
+              з громадянами.
+            </p>
+            <div class="invention-impact">
+              <h4>Вплив на розвиток IT</h4>
+              <p>
+                Дія стала еталоном державного цифрового сервісу світового рівня. Україна увійшла
+                до лідерів e-governance, а архітектура платформи надихає інші країни на цифровізацію
+                державного управління.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="invention-block reveal" id="face-recognition">
+          <div class="invention-image">
+            <!-- ЗАМІНИТИ: img/face-recognition.jpg -->
+            <img
+              src="https://images.unsplash.com/photo-1526374965328-7d61d4dc18c5?w=700&q=80"
+              alt="Технології розпізнавання та штучний інтелект"
+              width="700"
+              height="525"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            >
+          </div>
+          <div class="invention-content">
+            <h2>Технологія розпізнавання облич</h2>
+            <p class="invention-date">
+              <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+              2007–2011 роки — Україна / США
+            </p>
+            <p>
+              Українська компанія <strong>Viewdle</strong>, заснована Дмитром Лідером, розробила
+              передові алгоритми комп'ютерного зору для розпізнавання облич на фото та відео.
+              Технологія використовувала машинне навчання для автоматичного тегування людей
+              на зображеннях у соціальних мережах.
+            </p>
+            <div class="invention-impact">
+              <h4>Вплив на розвиток IT</h4>
+              <p>
+                Viewdle була придбана Google у 2012 році, а її технології лягли в основу функцій
+                розпізнавання облич у Google Photos та інших продуктах. Це один із найгучніших
+                виходів українського deep-tech на глобальний ринок.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="invention-block reveal" id="grammarly">
+          <div class="invention-image">
+            <img
+              src="https://static-web.grammarly.com/1e6ajr2k4140/DFhWiubvvRbRZo8Rwikaa/8716ba8a94b34ef46a3ba805ac3103cd/Frame_1185.png?w=1280&amp;fm=webp"
+              alt="Засновники Grammarly — український IT-стартап світового рівня"
+              width="700"
+              height="525"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            >
+          </div>
+          <div class="invention-content">
+            <h2>Grammarly</h2>
+            <p class="invention-date">
+              <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+              2009 рік — Київ / Сан-Франциско
+            </p>
+            <p>
+              <strong>Grammarly</strong> — AI-платформа для перевірки граматики, стилю та тону тексту
+              англійською мовою. Заснована українцями Максом Литвином, Алексом Шевченко та Єгором Анчишкіним,
+              компанія виросла в один із найвідоміших мовних стартапів світу з оцінкою понад 13 млрд доларів.
+            </p>
+            <div class="invention-impact">
+              <h4>Вплив на розвиток IT</h4>
+              <p>
+                Grammarly популяризувала NLP (обробку природної мови) серед масової аудиторії,
+                довела комерційний потенціал українських AI-продуктів і створила тисячі робочих місць
+                для IT-фахівців в Україні та світі.
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>Розробник сайту: Котюк Владислав, 8-А клас</p>
+      <nav class="footer-links" aria-label="Додаткова навігація">
+        <a href="index.html">Головна</a>
+        <a href="scientists.html">Науковці</a>
+        <a href="companies.html">Компанії</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

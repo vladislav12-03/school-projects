@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    (function () {
+      var path = window.location.pathname || '';
+      var dir = path.lastIndexOf('/') !== -1 ? path.substring(0, path.lastIndexOf('/') + 1) : './';
+      document.write('<base href="' + dir + '">');
+      document.write('<link rel="stylesheet" href="' + dir + 'css/style.css" id="site-main-css">');
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Науковці та розробники українського IT: Лєбєдєв, Глушков, Ющенко, Литвин, Шевченко та інші видатні особистості.">
+  <meta name="keywords" content="Сергій Лєбєдєв, Віктор Глушков, Катерина Ющенко, Grammarly засновники">
+  <meta name="author" content="Котюк Владислав">
+  <meta property="og:title" content="Науковці — Винаходи українців у IT">
+  <meta property="og:description" content="Біографії та досягнення видатних українських IT-науковців і підприємців.">
+  <meta property="og:type" content="website">
+  <title>Науковці — Винаходи українців у IT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇺🇦</text></svg>">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти до контенту</a>
+
+  <header class="site-header" role="banner">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo" aria-label="На головну">
+        <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+        <span>IT України</span>
+      </a>
+      <nav class="nav-menu" aria-label="Головна навігація">
+        <a href="index.html">Головна</a>
+        <a href="inventions.html">Винаходи</a>
+        <a href="scientists.html">Науковці</a>
+        <a href="companies.html">Компанії</a>
+      </nav>
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" aria-label="Увімкнути темну тему">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          <i class="fa-solid fa-sun" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="nav-toggle" aria-label="Відкрити меню" aria-expanded="false">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <span class="section-label">Особистості</span>
+        <h1>Науковці та розробники</h1>
+        <p>Люди, які створили технології та компанії, що змінили світову IT-індустрію</p>
+      </div>
+    </header>
+
+    <section class="section" aria-label="Картки науковців">
+      <div class="container">
+        <div class="card-grid card-grid-3">
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <img src="https://imglife.pravda.com.ua/images/doc/b/2/b2b96ff-0new-kyiv-34x14.jpg" alt="Сергій Лєбєдєв та МЕСМ" width="400" height="400" loading="lazy" referrerpolicy="no-referrer">
+            </div>
+            <div class="card-body">
+              <h3>Сергій Лєбєдєв</h3>
+              <p>Український радянський вчений, академік АН УРСР. Народився в 1902 році в Нижньому Новгороді, працював у Києві.</p>
+              <ul class="achievement-list">
+                <li>Створив МЕСМ — першу в Європі ЕОМ (1950)</li>
+                <li>Заснував Інститут кібернетики АН УРСР</li>
+                <li>Розробив серію комп'ютерів «Київ»</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Лєбєдєв працював над МЕСМ у підвалі будівлі, де температура взимку опускалась майже до нуля.</p>
+            </div>
+          </article>
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <img src="https://cityhost.ua/dm/upload_img/1659007824.webp" alt="Любомир Романків" width="400" height="400" loading="lazy" referrerpolicy="no-referrer">
+            </div>
+            <div class="card-body">
+              <h3>Любомир Романків</h3>
+              <p>Український фізик і винахідник, народився у 1926 році в Західній Україні. Працював у США в IBM Research.</p>
+              <ul class="achievement-list">
+                <li>Створив технологію тонкоплівкових магнітних головок</li>
+                <li>Автор понад 65 патентів США</li>
+                <li>Залучений до розвитку жорстких дисків</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Його винаходи зробили можливими сучасні накопичувачі даних у кожному комп'ютері.</p>
+            </div>
+          </article>
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <img src="https://imglife.pravda.com.ua/images/doc/e/f/efc815a-glushkov.jpg" alt="Віктор Глушков" width="400" height="400" loading="lazy" referrerpolicy="no-referrer">
+            </div>
+            <div class="card-body">
+              <h3>Віктор Глушков</h3>
+              <p>Радянський математик і кібернетик українського походження (1923–1982). Директор Інституту кібернетики в Києві.</p>
+              <ul class="achievement-list">
+                <li>Запропонував Національну автоматизовану систему (НАС)</li>
+                <li>Розробив теорію цифрових автоматів</li>
+                <li>Керував створенням комп'ютерів «Дніпро»</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Глушков передбачив електронну пошту та електронні гроші ще у 1960-х роках.</p>
+            </div>
+          </article>
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <img src="https://se.khai.edu/wp-content/uploads/2021/03/Yushchenko2019_1.jpg" alt="Катерина Ющенко" width="400" height="400" loading="lazy" referrerpolicy="no-referrer">
+            </div>
+            <div class="card-body">
+              <h3>Катерина Ющенко</h3>
+              <p>Українська вчена-програмістка (1919–2001). Перша жінка-доктор фізико-математичних наук в Україні з програмування.</p>
+              <ul class="achievement-list">
+                <li>Авторка адресної мови програмування (1955)</li>
+                <li>Розробила програмне забезпечення для МЕСМ</li>
+                <li>Заслужений діяч науки УРСР</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Її мова програмування випередила аналогічні концепції на Заході на кілька років.</p>
+            </div>
+          </article>
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <img src="https://cityhost.ua/dm/upload_img/1659007906.webp" alt="Єгор Анчишкін" width="400" height="400" loading="lazy" referrerpolicy="no-referrer">
+            </div>
+            <div class="card-body">
+              <h3>Єгор Анчишкін</h3>
+              <p>Український підприємець, співзасновник Grammarly. Народився в Україні, розпочав кар'єру в IT у Києві.</p>
+              <ul class="achievement-list">
+                <li>Співзаснував Grammarly у 2009 році</li>
+                <li>Розвивав продуктову стратегію компанії</li>
+                <li>Допоміг масштабувати AI-технології</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Grammarly починалась як інструмент для перевірки плагіату студентських робіт.</p>
+            </div>
+          </article>
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <img src="https://static-web.grammarly.com/1e6ajr2k4140/DFhWiubvvRbRZo8Rwikaa/8716ba8a94b34ef46a3ba805ac3103cd/Frame_1185.png?w=1280&amp;fm=webp" alt="Макс Литвин — співзасновник Grammarly" width="400" height="400" loading="lazy" referrerpolicy="no-referrer" class="img-cover-top">
+            </div>
+            <div class="card-body">
+              <h3>Макс Литвин</h3>
+              <p>Український підприємець, CEO та співзасновник Grammarly. Випускник Тернопільського національного економічного університету.</p>
+              <ul class="achievement-list">
+                <li>CEO Grammarly з моменту заснування</li>
+                <li>Побудував компанію з оцінкою $13+ млрд</li>
+                <li>Інвестує в українські стартапи</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Під час повномасштабного вторгнення Grammarly виділила понад 25 млн доларів на підтримку України.</p>
+            </div>
+          </article>
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <img src="https://static-web.grammarly.com/1e6ajr2k4140/DFhWiubvvRbRZo8Rwikaa/8716ba8a94b34ef46a3ba805ac3103cd/Frame_1185.png?w=1280&amp;fm=webp" alt="Алекс Шевченко — співзасновник Grammarly" width="400" height="400" loading="lazy" referrerpolicy="no-referrer" class="img-cover-top">
+            </div>
+            <div class="card-body">
+              <h3>Алекс Шевченко</h3>
+              <p>Український підприємець, співзасновник Grammarly. Має технічну освіту та досвід у розробці програмного забезпечення.</p>
+              <ul class="achievement-list">
+                <li>Співзаснував Grammarly разом із партнерами</li>
+                <li>Керував технічним розвитком продукту</li>
+                <li>Розширив компанію на ринок США</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Перший офіс Grammarly був у Києві, а сьогодні компанія має офіси по всьому світу.</p>
+            </div>
+          </article>
+
+          <article class="card scientist-card reveal">
+            <div class="card-image">
+              <!-- ЗАМІНИТИ: img/lider.jpg -->
+              <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&q=80" alt="Дмитро Лідер" width="400" height="400" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Дмитро Лідер</h3>
+              <p>Український підприємець, засновник Viewdle — компанії з комп'ютерного зору та розпізнавання облич.</p>
+              <ul class="achievement-list">
+                <li>Заснував Viewdle у 2007 році</li>
+                <li>Продав компанію Google у 2012 році</li>
+                <li>Піонер українського computer vision</li>
+              </ul>
+              <p class="fact-box"><i class="fa-solid fa-star" aria-hidden="true"></i> Viewdle — один із перших успішних exits українського IT-стартапу на рівні Google.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>Розробник сайту: Котюк Владислав, 8-А клас</p>
+      <nav class="footer-links" aria-label="Додаткова навігація">
+        <a href="index.html">Головна</a>
+        <a href="inventions.html">Винаходи</a>
+        <a href="companies.html">Компанії</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
